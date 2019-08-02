@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf48fc8-b92b-43a5-8998-aed25b92ea25" name="Default" comment="" />
+    <list default="true" id="3bf48fc8-b92b-43a5-8998-aed25b92ea25" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/MockProject/obj/Debug/netcoreapp2.2/MockProject.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MockProject/obj/Debug/netcoreapp2.2/MockProject.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MockProject/obj/Debug/netcoreapp2.2/MockProject.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MockProject/obj/Debug/netcoreapp2.2/MockProject.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MockProject/obj/MockProject.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MockProject/obj/MockProject.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MockProject/obj/MockProject.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MockProject/obj/MockProject.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MockProject/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MockProject/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MockProject/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MockProject/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +27,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
+<<<<<<< HEAD
     <expand />
     <select />
   </component>
@@ -85,6 +93,20 @@
         <option value="khuong &lt;anhkhuong1412@gmail.com&gt;" />
       </list>
     </option>
+=======
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="QLDiem@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+>>>>>>> 164a520e6c2787368c92c9f471ee37c63d99c9d8
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -140,9 +162,13 @@
     <option name="width" value="724" />
     <option name="height" value="1000" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+=======
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> 164a520e6c2787368c92c9f471ee37c63d99c9d8
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -166,6 +192,7 @@
               <item name="MockProject" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Data" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="MockProject (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
@@ -180,6 +207,8 @@
               <item name="Data" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Repository" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+=======
+>>>>>>> 164a520e6c2787368c92c9f471ee37c63d99c9d8
           </expand>
           <select />
         </subPane>
@@ -235,7 +264,11 @@
       <updated>1564648185761</updated>
       <workItem from="1564648212395" duration="4973000" />
       <workItem from="1564713361275" duration="1840000" />
+<<<<<<< HEAD
       <workItem from="1564715660278" duration="1321000" />
+=======
+      <workItem from="1564715660278" duration="488000" />
+>>>>>>> 164a520e6c2787368c92c9f471ee37c63d99c9d8
     </task>
     <task id="LOCAL-00001" summary="set up repository">
       <created>1564716502521</created>
@@ -248,7 +281,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="8134000" />
+=======
+    <option name="totallyTimeSpent" value="7301000" />
+>>>>>>> 164a520e6c2787368c92c9f471ee37c63d99c9d8
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
