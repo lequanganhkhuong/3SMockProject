@@ -2,9 +2,13 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MockProject.Areas.Admin.Controllers;
+using MockProject.Data.Interface;
+using MockProject.Data.Repository;
 using MockProject.Models;
 
 namespace MockProject
@@ -28,9 +32,20 @@ namespace MockProject
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<AppDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+//            services.Configure<RazorViewEngineOptions>(options =>
+//            {
+//                options.AreaViewLocationFormats.Clear();
+//                options.AreaViewLocationFormats.Add("/Areas/Admin/Views/Share/_Layout.cshtml");
+//            });
+
+            //add repo
+            services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
+            services.AddTransient(typeof(IUnitOfWork), typeof(UnitOfWork));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,6 +68,15 @@ namespace MockProject
 
             app.UseMvc(routes =>
             {
+//                routes.MapAreaRoute(
+//                    name: "MyArea",
+//                    areaName: "Admin",
+//                    template: "Admin/{controller=Admin}/{action=Index}/{id?}");
+
+                routes.MapRoute(
+                    name: "MyArea",
+                    template: "{area:exists}/{controller=Admin}/{action=Index}/{id?}");
+
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");

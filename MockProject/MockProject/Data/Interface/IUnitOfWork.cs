@@ -1,7 +1,9 @@
-﻿namespace MockProject.Data.Interface
+﻿using System;
+
+namespace MockProject.Data.Interface
 {
-    public interface IUnitOfWork
+    public interface IUnitOfWork : IDisposable
     {
-        
+        void Commit();
     }
 }

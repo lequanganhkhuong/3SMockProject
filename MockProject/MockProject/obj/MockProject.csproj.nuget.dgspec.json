@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/home/khuong/RiderProjects/MockProject/MockProject/MockProject.csproj": {}
+    "/home/tam/project/MockProject/MockProject/MockProject/MockProject.csproj": {}
   },
   "projects": {
-    "/home/khuong/RiderProjects/MockProject/MockProject/MockProject.csproj": {
+    "/home/tam/project/MockProject/MockProject/MockProject/MockProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/khuong/RiderProjects/MockProject/MockProject/MockProject.csproj",
+        "projectUniqueName": "/home/tam/project/MockProject/MockProject/MockProject/MockProject.csproj",
         "projectName": "MockProject",
-        "projectPath": "/home/khuong/RiderProjects/MockProject/MockProject/MockProject.csproj",
-        "packagesPath": "/home/khuong/.nuget/packages/",
-        "outputPath": "/home/khuong/RiderProjects/MockProject/MockProject/obj/",
+        "projectPath": "/home/tam/project/MockProject/MockProject/MockProject/MockProject.csproj",
+        "packagesPath": "/home/tam/.nuget/packages/",
+        "outputPath": "/home/tam/project/MockProject/MockProject/MockProject/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/khuong/.nuget/NuGet/NuGet.Config"
+          "/home/tam/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"

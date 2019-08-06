@@ -8,6 +8,13 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Areas\Admin\Data" />
+    <Folder Include="Areas\Admin\Models" />
     <Folder Include="Migrations" />
+    <Folder Include="wwwroot\Admin" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Area\Admin\Views\Admin\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Admin\Index.cshtml" />
   </ItemGroup>
 </Project>

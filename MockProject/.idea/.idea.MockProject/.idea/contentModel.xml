@@ -1,20 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.Rider2018.1/system/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_MockProject.1711160939.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.1/system/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_MockProject.-416734851.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="MockProject" t="IncludeRecursive">
+        <e p="Areas" t="Include">
+          <e p="Admin" t="Include">
+            <e p="Controllers" t="Include">
+              <e p="AdminController.cs" t="Include" />
+            </e>
+            <e p="Data" t="Include" />
+            <e p="Models" t="Include" />
+            <e p="Views" t="Include">
+              <e p="Admin" t="Include">
+                <e p="Index.cshtml" t="Include" />
+              </e>
+              <e p="Share" t="Include">
+                <e p="_Layout.cshtml" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
           <e p="Interface" t="Include">
+            <e p="IFacultyRepository.cs" t="Include" />
+            <e p="IGradeRepository.cs" t="Include" />
             <e p="IRepository.cs" t="Include" />
+            <e p="IRoleRepository.cs" t="Include" />
+            <e p="IScheduleRepository.cs" t="Include" />
+            <e p="ISemesterRepository.cs" t="Include" />
+            <e p="ISubjectRepository.cs" t="Include" />
+            <e p="ITransciptRepository.cs" t="Include" />
             <e p="IUnitOfWork.cs" t="Include" />
+            <e p="IUserRepository.cs" t="Include" />
           </e>
           <e p="Repository" t="Include">
+            <e p="FacultyRepository.cs" t="Include" />
+            <e p="GradeRepository.cs" t="Include" />
             <e p="Repository.cs" t="Include" />
+            <e p="RoleRepository.cs" t="Include" />
+            <e p="ScheduleRepository.cs" t="Include" />
+            <e p="SemesterRepository.cs" t="Include" />
+            <e p="SubjectRepository.cs" t="Include" />
+            <e p="TranscriptRepository.cs" t="Include" />
             <e p="UnitOfWork.cs" t="Include" />
+            <e p="UserRepository.cs" t="Include" />
           </e>
         </e>
         <e p="Migrations" t="Include">
@@ -65,6 +98,83 @@
           </e>
         </e>
         <e p="wwwroot" t="Include">
+          <e p="Admin" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="js" t="Include">
+                <e p="bootstrap.bundle.js" t="Include" />
+                <e p="bootstrap.bundle.js.map" t="Include" />
+                <e p="bootstrap.bundle.min.js" t="Include" />
+                <e p="bootstrap.bundle.min.js.map" t="Include" />
+                <e p="bootstrap.js" t="Include" />
+                <e p="bootstrap.js.map" t="Include" />
+                <e p="bootstrap.min.js" t="Include" />
+                <e p="bootstrap.min.js.map" t="Include" />
+              </e>
+            </e>
+            <e p="css" t="Include">
+              <e p="adminlte.css" t="Include" />
+              <e p="adminlte.css.map" t="Include" />
+              <e p="adminlte.min.css" t="Include" />
+              <e p="adminlte.min.css.map" t="Include" />
+            </e>
+            <e p="fastclick" t="Include">
+              <e p="fastclick.js" t="Include" />
+            </e>
+            <e p="img" t="Include">
+              <e p="AdminLTELogo.png" t="Include" />
+              <e p="avatar.png" t="Include" />
+              <e p="avatar04.png" t="Include" />
+              <e p="avatar2.png" t="Include" />
+              <e p="avatar3.png" t="Include" />
+              <e p="avatar5.png" t="Include" />
+              <e p="boxed-bg.jpg" t="Include" />
+              <e p="boxed-bg.png" t="Include" />
+              <e p="credit" t="Include">
+                <e p="american-express.png" t="Include" />
+                <e p="cirrus.png" t="Include" />
+                <e p="mastercard.png" t="Include" />
+                <e p="mestro.png" t="Include" />
+                <e p="paypal.png" t="Include" />
+                <e p="paypal2.png" t="Include" />
+                <e p="visa.png" t="Include" />
+              </e>
+              <e p="default-150x150.png" t="Include" />
+              <e p="icons.png" t="Include" />
+              <e p="photo1.png" t="Include" />
+              <e p="photo2.png" t="Include" />
+              <e p="photo3.jpg" t="Include" />
+              <e p="photo4.jpg" t="Include" />
+              <e p="user1-128x128.jpg" t="Include" />
+              <e p="user2-160x160.jpg" t="Include" />
+              <e p="user3-128x128.jpg" t="Include" />
+              <e p="user4-128x128.jpg" t="Include" />
+              <e p="user5-128x128.jpg" t="Include" />
+              <e p="user6-128x128.jpg" t="Include" />
+              <e p="user7-128x128.jpg" t="Include" />
+              <e p="user8-128x128.jpg" t="Include" />
+            </e>
+            <e p="jquery" t="Include">
+              <e p="core.js" t="Include" />
+              <e p="jquery.js" t="Include" />
+              <e p="jquery.min.js" t="Include" />
+              <e p="jquery.min.map" t="Include" />
+              <e p="jquery.slim.js" t="Include" />
+              <e p="jquery.slim.min.js" t="Include" />
+              <e p="jquery.slim.min.map" t="Include" />
+            </e>
+            <e p="js" t="Include">
+              <e p="adminlte.js" t="Include" />
+              <e p="adminlte.js.map" t="Include" />
+              <e p="adminlte.min.js" t="Include" />
+              <e p="adminlte.min.js.map" t="Include" />
+              <e p="demo.js" t="Include" />
+              <e p="pages" t="Include">
+                <e p="dashboard.js" t="Include" />
+                <e p="dashboard2.js" t="Include" />
+                <e p="dashboard3.js" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="css" t="Include">
             <e p="site.css" t="Include" />
           </e>
