@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/khuong/RiderProjects/MockProject/MockProject/MockProject/MockProject.csproj",
+    "projectUniqueName": "/home/khuong/RiderProjects/MockProject/MockProject/MockProject.csproj",
     "projectName": "MockProject",
-    "projectPath": "/home/khuong/RiderProjects/MockProject/MockProject/MockProject/MockProject.csproj",
-    "outputPath": "/home/khuong/RiderProjects/MockProject/MockProject/MockProject/obj/",
+    "projectPath": "/home/khuong/RiderProjects/MockProject/MockProject/MockProject.csproj",
+    "outputPath": "/home/khuong/RiderProjects/MockProject/MockProject/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"
