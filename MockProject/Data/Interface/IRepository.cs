@@ -1,10 +1,14 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
+using System.Linq.Expressions;
 
 namespace MockProject.Data.Interface
 {
     public interface IRepository<T> where T: class
     {
-        IQueryable < T > GetAll();  
+        IQueryable < T > GetAll(Expression<Func<T, bool>> filter = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+            string includeProperties = "");  
         T Get(int? id);  
         void Insert(T entity);  
         void Update(T entity);  

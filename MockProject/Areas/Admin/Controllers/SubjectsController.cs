@@ -1,5 +1,6 @@
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MockProject.Models;
@@ -7,6 +8,7 @@ using MockProject.Models;
 namespace MockProject.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "admin")]
     public class SubjectsController : Controller
     {
         private readonly AppDbContext _context;

@@ -11,7 +11,6 @@ namespace MockProject.Models
         }
 
         public DbSet<Faculty> Faculties { get; set; }
-        public DbSet<Grade> Grades { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<Schedule> Schedules { get; set; }
         public DbSet<Semester> Semesters { get; set; }

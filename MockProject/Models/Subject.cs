@@ -11,7 +11,7 @@ namespace MockProject.Models
         public int Credits { get; set; }
         public bool IsActive { get; set; }
         
-        public virtual ICollection<Grade> Grades { get; set; }
+        
         public virtual ICollection<Schedule> Schedules { get; set; }
     }
 }

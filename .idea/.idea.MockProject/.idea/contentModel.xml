@@ -78,7 +78,6 @@
           <e p="AppDbContext.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
           <e p="Faculty.cs" t="Include" />
-          <e p="Grade.cs" t="Include" />
           <e p="Role.cs" t="Include" />
           <e p="Schedule.cs" t="Include" />
           <e p="Semester.cs" t="Include" />

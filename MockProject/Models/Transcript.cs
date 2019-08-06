@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace MockProject.Models
 {
@@ -11,10 +10,12 @@ namespace MockProject.Models
         public int? ScheduleId { get; set; }
         //Student
         public int? UserId { get; set; }
+        public double? Mark { get; set; }
+        public bool? IsPassed { get; set; }
         public bool IsActive { get; set; }
         
         
-        public virtual ICollection<Grade> Grades { get; set; }
+      
         
         public virtual Schedule Schedule { get; set; }
        public virtual User User { get; set; }

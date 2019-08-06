@@ -1,4 +1,6 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
+using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using MockProject.Data.Interface;
 using MockProject.Models;
@@ -15,11 +17,40 @@ namespace MockProject.Data.Repository
             _context = context;
             _entity = _context.Set<T>();
         }
-
-        public IQueryable<T> GetAll()
+        public virtual IQueryable<T> GetAll(
+            Expression<Func<T, bool>> filter = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+            string includeProperties = "")
         {
-            return _entity;
+            IQueryable<T> query = _entity;
+
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
+
+            foreach (var includeProperty in includeProperties.Split
+                (new[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+            {
+                query = query.Include(includeProperty);
+            }
+
+            if (orderBy != null)
+            {
+                return orderBy(query);
+            }
+            else
+            {
+                return query;
+            }
         }
+
+//        public IQueryable<T> GetAll()
+//        {
+//            return _entity;
+//        }
+
+       
 
         public T Get(int? id)
         {
@@ -50,7 +81,7 @@ namespace MockProject.Data.Repository
         }
         public void Delete(object id)
         {
-            T entity = _entity.Find(id);
+            var entity = _entity.Find(id);
             Remove(entity);
         }
     }
